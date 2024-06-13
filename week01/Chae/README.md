@@ -40,7 +40,7 @@ class Main {
 }
 ```
 -  A, B 입력 받아 A/B 출력
-  실제 정답과 출력값의 절대오차 또는 상대오차가 10-9 이하이면 정답
+  실제 정답과 출력값의 **절대오차 또는 상대오차가 10-9 이하**이면 정답
 ```
 import java.util.*;
 public class Main {
@@ -49,6 +49,17 @@ public class Main {
         Double A = sc.nextDouble();
         Double B = sc.nextDouble();
         System.out.println(A/B);
+    }
+}
+```
+- 입력 받은 문자열에 ??! 추가
+```
+import java.util.*;
+class Main {
+    public static void main(String[] args)  {
+        Scanner sc = new Scanner(System.in);
+        String A = sc.nextLine();
+        System.out.println(A+"??!");
     }
 }
 ```
