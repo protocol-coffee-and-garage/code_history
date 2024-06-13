@@ -1,7 +1,14 @@
-import sys, math
+import sys
 read = sys.stdin.readline
-num_list = [map(int, read().split())]
+def product(*num):
+    if len(num) == 1:
+        return num[0]
+    return num[0] * product(*num[1:])
 
-def product(num):
-		
-# print(num_list[0] * num_list[idx + 1] for idx in range(len(num_list[1:])))
+num_list = [*map(int, read().split())]
+
+print(product(*num_list))
+
+# 기존 작성 내용
+a, b = list(map(int, input().split()))
+print(a * b)
