@@ -25,4 +25,31 @@ Evaluate: 코드나 메서드 실행해서 result 볼 수 있음
 
 ```
 
+###입출력 
+- A, B 입력 받아 A+B 출력
+```
+import java.util.*;
+class Main {
+    public static void main(String[] args)  {
+        Scanner sc = new Scanner(System.in);
+        int A, B;
+        A = sc.nextInt();
+        B = sc.nextInt();
+        System.out.println(A+B);
+    }
+}
+```
+-  A, B 입력 받아 A/B 출력
+  실제 정답과 출력값의 절대오차 또는 상대오차가 10-9 이하이면 정답
+```
+import java.util.*;
+public class Main {
+    public static void main(String[] args)  {
+        Scanner sc = new Scanner(System.in);
+        Double A = sc.nextDouble();
+        Double B = sc.nextDouble();
+        System.out.println(A/B);
+    }
+}
+```
 
