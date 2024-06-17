@@ -24,6 +24,46 @@ resume program: 다음 breakpoint까지 실행
 Evaluate: 코드나 메서드 실행해서 result 볼 수 있음
 
 ```
+###자바 자료형
+
+- 기본 자료형
+```
+Boolean: 8비트 true/false
+short:16비트 -32,768 ~ +32,767
+int: 32비트 -2,147,483,638~+2,147,483,647
+long: 64비트 -9223372036854775808~+9223372036854775807
+float: 32비트 -3.402932347e+38~+3.40292347e+38
+double: 64비트 -179769313486231570e+308~1.79769313486231570e+08
+char: 16비트 –128~127
+
+Long보다 큰 값을 사용해야 할 때
+BigInteger: 문자열 형태로 담을 수 있어서 범위 무한
+```
+
+- 참조 자료형
+Collection Framework
+
+- List: 중복O, 순서O
+```
+  - ArrayList: 가변크기 Array로 구성된 리스트
+  - ListIterator: List에 Iterator사용, 양방향으로 객체 탐색이 가능
+  - LinkedList: 자료의 주소값을 연결, 삽입/삭제 용이, 순차접근 방식으로 탐색은 ArrayList가 나음
+  - Vector: 기본적으로 ArrayList와 동일하지만 잘 사용하지 않음
+     - Stack
+```
+List 사용법
+<img width="734" alt="스크린샷 2024-06-18 오전 8 31 37" src="https://github.com/protocol-coffee-and-garage/code_history/assets/121208913/24122ed1-cdb4-43ec-b53b-ca5ce3b73c39">
+
+- Set: 중복X, 순서X
+```
+SortedSet: 오름차순 정렬 저장
+TreeSet: 오름차순 정렬, 트리형태 저장
+HashSet: 키+값을 가진 해시테이블 사용, 정렬X
+```
+
+참고: https://www.devkuma.com/docs/java/collection-framework/
+
+
 
 ###입출력 
 - A, B 입력 받아 A+B 출력
