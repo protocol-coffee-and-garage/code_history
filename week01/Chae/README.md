@@ -24,9 +24,9 @@ resume program: 다음 breakpoint까지 실행
 Evaluate: 코드나 메서드 실행해서 result 볼 수 있음
 
 ```
-###자바 자료형
+### 자바 자료형
 
-- 기본 자료형
+기본 자료형
 ```
 Boolean: 8비트 true/false
 short:16비트 -32,768 ~ +32,767
@@ -40,7 +40,7 @@ Long보다 큰 값을 사용해야 할 때
 BigInteger: 문자열 형태로 담을 수 있어서 범위 무한
 ```
 
-- 참조 자료형
+참조 자료형 \n
 Collection Framework
 
 - List: 중복O, 순서O
