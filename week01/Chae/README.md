@@ -59,6 +59,14 @@ TreeSet: 오름차순 정렬, 트리형태 저장
 HashSet: 키+값을 가진 해시테이블 사용, 정렬X
 ```
 
+- Map: 키+값 (키: 중복X, 값: 중복O)
+```
+  - HashMap<K, V>: key와 value를 묶어 하나의 entry로 저장, 검색속도 빠름
+  - TreeMap<K, V>: key와 value 데이터를 이진 검색 트리의 형태로 저장, 추가/삭제 빠름
+
+
+
+
 참고: https://www.devkuma.com/docs/java/collection-framework/
 
 
