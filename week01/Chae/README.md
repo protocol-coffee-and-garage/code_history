@@ -40,8 +40,7 @@ Long보다 큰 값을 사용해야 할 때
 BigInteger: 문자열 형태로 담을 수 있어서 범위 무한
 ```
 
-참조 자료형 \n
-Collection Framework
+참조 자료형 (Collection Framework)
 
 - List: 중복O, 순서O
 ```
@@ -51,7 +50,6 @@ Collection Framework
   - Vector: 기본적으로 ArrayList와 동일하지만 잘 사용하지 않음
      - Stack
 ```
-List 사용법
 <img width="734" alt="스크린샷 2024-06-18 오전 8 31 37" src="https://github.com/protocol-coffee-and-garage/code_history/assets/121208913/24122ed1-cdb4-43ec-b53b-ca5ce3b73c39">
 
 - Set: 중복X, 순서X
