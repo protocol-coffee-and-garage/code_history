@@ -63,7 +63,7 @@ HashSet: 키+값을 가진 해시테이블 사용, 정렬X
 ```
   - HashMap<K, V>: key와 value를 묶어 하나의 entry로 저장, 검색속도 빠름
   - TreeMap<K, V>: key와 value 데이터를 이진 검색 트리의 형태로 저장, 추가/삭제 빠름
-
+```
 
 
 
@@ -71,9 +71,9 @@ HashSet: 키+값을 가진 해시테이블 사용, 정렬X
 
 
 
-###입출력 
+### 입출력 
 - A, B 입력 받아 A+B 출력
-```
+```java
 import java.util.*;
 class Main {
     public static void main(String[] args)  {
@@ -87,7 +87,7 @@ class Main {
 ```
 -  A, B 입력 받아 A/B 출력
   실제 정답과 출력값의 **절대오차 또는 상대오차가 10-9 이하**이면 정답
-```
+```java
 import java.util.*;
 public class Main {
     public static void main(String[] args)  {
@@ -99,7 +99,7 @@ public class Main {
 }
 ```
 - 입력 받은 문자열에 ??! 추가
-```
+```java
 import java.util.*;
 class Main {
     public static void main(String[] args)  {
@@ -110,7 +110,7 @@ class Main {
 }
 ```
 - 불기 -> 서기 전환
-```
+```java
 import java.util.*;
 public class Main{
     public static void main(String[] args){
