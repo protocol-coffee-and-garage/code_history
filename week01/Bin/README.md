@@ -57,7 +57,7 @@ step4. 콘솔 사용
 > https://www.youtube.com/watch?v=IwC-BVM2_YQ
 
 # 
-### 입출력(I/O)
+### 입출력(I/O) ⌨️
 Java 입출력 방법  
 <br/> **1. 표준입출력(콘솔입출력)**  
 - 입력: Scanner 클래스 사용 
@@ -91,7 +91,7 @@ Java 입출력 방법
 > https://rlakuku-program.tistory.com/33  
 
 # 
-### 기본 데이터 유형 및 데이터 구조(Basic Data Type and Data Structures)
+### 기본 데이터 유형 및 데이터 구조(Basic Data Type and Data Structures) 🗄️
 Java 자료형 및 자료구조  
 
 ![자료형](https://github.com/protocol-coffee-and-garage/code_history/assets/108244671/52ba966b-42cf-4416-ab09-874421536fbf)
