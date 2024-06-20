@@ -1,0 +1,7 @@
+{
+  "editor.fontSize": 18,
+  "editor.fontFamily": "D2Coding ligature, Consolas, 'Courier New', monospace",
+  "files.autoSave": "afterDelay",
+  "editor.minimap.sectionHeaderFontSize": 9,
+  "workbench.sash.size": 4
+}
