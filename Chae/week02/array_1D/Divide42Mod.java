@@ -11,19 +11,14 @@ public class Divide42Mod {
 
         ArrayList<Integer> arr = new ArrayList<>();
         ArrayList<Integer> arr2 = new ArrayList<>();
-        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in) );
+        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 
-        for (int i =0; i < 10; i++) {
+        for (int i = 0; i < 10; i++) {
             int n = Integer.parseInt(bf.readLine());
-            if ( n > 0) {
+            if (n > 0) {
                 int r = n % 42;
-                    arr.add(r);
+                arr.add(r);
             }
         }
-        List<Integer> disList = arr.stream()
-                                   .distinct()
-                                    .collect(Collectors.toList());
-
-            System.out.println(disList.size());
     }
 }
