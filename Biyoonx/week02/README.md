@@ -29,7 +29,7 @@
 - 인덱스가 없어 값에 접근하려면 head에서부터 연결된 순서대로 접근(속도가 느림)
 
 ## Prefix Sum
-- 부분함 인덱스 찾기([Subarray with given sum](https://www.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1))
+- 부분합 인덱스 찾기([Subarray with given sum](https://www.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1))
 1. 이중 반복문
 ```python
 def find_sub_array(arr: list[int], s: int) -> list[int]:
@@ -40,6 +40,17 @@ def find_sub_array(arr: list[int], s: int) -> list[int]:
             if sub_total == s:
                 return [i+1, j+1]
     return [-1]
+```
+```python
+import sys
+read = sys.stdin.readline
+
+num_cnt, sum_cnt = map(int, read().split())
+num_list = [*map(int, read().split())]
+
+for _ in range(sum_cnt):
+		start, end = map(int, read().split())
+		print(sum(num_list[start - 1:end]))
 ```
 2. 부분 합(포인터 2개)
 ```python
@@ -55,6 +66,20 @@ def find_sub_array(arr: list[int], s: int) -> list[int]:
             return [left+1, right+1]
     return [-1]
 ```
+```python
+import sys
+read = sys.stdin.readline
+
+num_cnt, sum_cnt = map(int, read().split())
+sum_list = [0]
+
+for idx, num in enumerate([*map(int, read().split())]):
+		sum_list.append(num + sum_list[idx])
+
+for _ in range(sum_cnt):
+		a, b = map(int, read().split())
+		print(sum_list[max(a, b)] - sum_list[min(a, b) - 1])
+```
 
 [좌충우돌, 파이썬으로 자료구조 구현하기 - 02-04. 제시된 합을 가진 부분 배열 찾기](https://wikidocs.net/224917)
 
@@ -68,7 +93,7 @@ def find_sub_array(arr: list[int], s: int) -> list[int]:
 <img src="https://wikidocs.net/images/page/193049/ds-043.png"/>
 - dictionary를 활용해 해시 함수로 연결되는 해시테이블을 만들 수 있음
 - 객체의 해시값을 반환하는 hash() 함수 활용 가능    
-[Python 공식 문서 내장 함수 - hash(obj)](https://docs.python.org/ko/dev/library/functions.html#hash)  
+이미지 출처 : [Python 공식 문서 내장 함수 - hash(obj)](https://docs.python.org/ko/dev/library/functions.html#hash)  
 
 ### map
 - 키-값 쌍을 저장하고 이를 검색하기 위한 자료 구조
