@@ -73,7 +73,7 @@ def find_sub_array(arr: list[int], s: int) -> list[int]:
 ### map
 - 키-값 쌍을 저장하고 이를 검색하기 위한 자료 구조
 - 해시 테이블을 기반으로 구현되기도 하지만, 맵 자체는 키-값 쌍을 저장하는 개념적 자료 구조
-- python에서는 dictionary로 구현되어 있음
+- python에서는 dictionary로 구현되어 있음  
 
 - 참고자료  
 [좌충우돌, 파이썬으로 자료구조 구현하기 - 06장 파이썬으로 해시 테이블 구현하기](https://wikidocs.net/193049)
