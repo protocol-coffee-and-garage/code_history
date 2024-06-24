@@ -41,5 +41,11 @@
 ### week2 : 배열, 리스트, 구간 합, 해시/맵
 
 - Date : 6월 24일 월요일
-- Assignment : 책 2일차(배열, 리스트, 구간 합) + 해시/맵, 백준 단계별 : 1차원(개수 세기, X보다 작은 수, 공 바꾸기, 나머지) 4개 필수 / 2차원 배열 1개 이상 필수(포기했으면 다른 문제 시도 + 풀이 정리)  
+- Assignment : 책 2일차(배열, 리스트, 구간 합) + Hash/Map, 백준 단계별 : 1차원(개수 세기, X보다 작은 수, 공 바꾸기, 나머지) 4개 필수 / 2차원 배열 1개 이상 필수(포기했으면 다른 문제 시도 + 풀이 정리)  
   [지수빈](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Bin/week02) | [이채연](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Chae/week02) | [이시향](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Biyoonx/week02)
+
+### week3 : 투 포인터, 슬라이딩 윈도우, 셋
+
+- Date : 7월 1일
+- Assignment : 책 3일차(투 포인터, 슬라이딩 윈도우 - 백준 : 2018, 1940, 1253, 12891, 11003) + Set, 백준 분류 : 
+[해시를 사용한 집합과 맵](https://www.acmicpc.net/problemset?sort=ac_desc&algo=136) 3문제, [두 포인터](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80) 3문제
