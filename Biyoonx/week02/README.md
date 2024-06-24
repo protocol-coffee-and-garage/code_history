@@ -67,7 +67,7 @@ def find_sub_array(arr: list[int], s: int) -> list[int]:
 - 해시 테이블은 해시 충돌(hash collision)을 해결하기 위한 방법들이 존재
 <img src="https://wikidocs.net/images/page/193049/ds-043.png"/>
 - dictionary를 활용해 해시 함수로 연결되는 해시테이블을 만들 수 있음
-- 객체의 해시값을 반환하는 hash() 함수 활용 가능  
+- 객체의 해시값을 반환하는 hash() 함수 활용 가능    
 [Python 공식 문서 내장 함수 - hash(obj)](https://docs.python.org/ko/dev/library/functions.html#hash)  
 
 ### map
@@ -75,5 +75,5 @@ def find_sub_array(arr: list[int], s: int) -> list[int]:
 - 해시 테이블을 기반으로 구현되기도 하지만, 맵 자체는 키-값 쌍을 저장하는 개념적 자료 구조
 - python에서는 dictionary로 구현되어 있음  
 
-- 참고자료  
+#### 참고자료  
 [좌충우돌, 파이썬으로 자료구조 구현하기 - 06장 파이썬으로 해시 테이블 구현하기](https://wikidocs.net/193049)
