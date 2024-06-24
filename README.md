@@ -48,4 +48,5 @@
 
 - Date : 7월 1일
 - Assignment : 책 3일차(투 포인터, 슬라이딩 윈도우 - 백준 : 2018, 1940, 1253, 12891, 11003) + Set, 백준 분류 : 
-[해시를 사용한 집합과 맵](https://www.acmicpc.net/problemset?sort=ac_desc&algo=136) 3문제, [두 포인터](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80) 3문제, [2차원 배열 - 색종이](https://www.acmicpc.net/problem/2563)
+[해시를 사용한 집합과 맵](https://www.acmicpc.net/problemset?sort=ac_desc&algo=136) 3문제, [두 포인터](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80) 3문제, [2차원 배열 - 색종이](https://www.acmicpc.net/problem/2563)  
+  [지수빈](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Bin/week03) | [이채연](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Chae/week03) | [이시향](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Biyoonx/week03)
