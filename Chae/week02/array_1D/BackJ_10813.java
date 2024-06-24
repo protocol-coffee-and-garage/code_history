@@ -3,7 +3,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-public class SwitchBall {
+public class BackJ_10813 {
     public static void main(String[] args) throws Exception{
 
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
