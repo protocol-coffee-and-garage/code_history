@@ -268,6 +268,7 @@
   - OrderedDict
 - function / class
 - 날짜와 시간 : datetime 패키지, dateutil 패키지, time 패키지
+- ord(문자) : 유니코드 정수 반환 / chr(정수) : 유니코드 문자 반환
 
 - 1급 객체 : 변수 또는 자료구조 안에 담을 수 있음, 매개변수로 전달 가능, 반환값으로 사용 가능
 
