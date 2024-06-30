@@ -42,10 +42,13 @@ public class DoIt03_1_002 {
             if(arr.get(i) > max) {
                 max = arr.get(i);
             }
-            sum = sum + arr.get(i);
+            sum += arr.get(i);
         }
         long avg = (sum * 100 / max / n );
 
         System.out.println(avg);*/
+
+
+
     }
 }

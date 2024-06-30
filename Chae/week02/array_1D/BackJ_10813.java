@@ -1,7 +1,10 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.StringTokenizer;
+import java.util.stream.Stream;
 
 public class BackJ_10813 {
     public static void main(String[] args) throws Exception{
@@ -32,11 +35,14 @@ public class BackJ_10813 {
                   arr.remove(j+1);
                   arr.add(j+1, temp);
                   arr.remove(i+1);
+                 // arr.set(i,arr.get(j)); <-이렇게 풀기
 
             }
         }
         for (Integer r : arr) {
             System.out.print(r + " ");
         }
+        String.join(" ", Stream.of(arr).toString());
+
     }
 }
