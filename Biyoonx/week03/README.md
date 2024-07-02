@@ -44,3 +44,7 @@
 
 - 참고자료  
 	[점프 투 파이썬 - 02-6 집합 자료형](https://wikidocs.net/1015)
+
+- 문제풀이 참고자료
+	- 1253 좋다  
+	[[백준 / BOJ] 1253 좋다 - JJUN_0](https://dlwnsdud205.tistory.com/158)
