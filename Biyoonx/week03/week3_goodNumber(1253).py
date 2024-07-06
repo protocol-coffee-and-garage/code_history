@@ -2,7 +2,7 @@ import sys
 read = sys.stdin.readline
 
 n = int(read())
-num_list = [*map(int, read().split())]
+num_list = sorted(map(int, read().split()))
 
 # 시간초과
 '''
@@ -20,7 +20,6 @@ for idx in range(2, n):
 print(result)
 '''
 
-# 어디서부터 문제지......3 / 0 1 1 할 차례
 result = 0
 for idx in range(n):
     num = num_list[idx]
@@ -32,7 +31,9 @@ for idx in range(n):
         if sub_sum == num and (idx != s and idx != e):
             result += 1
             break
-        elif sub_sum <= num or s == idx:
+        elif e == idx: # e == idx일 때 조건이 생략되어서 else로 들어가지 않을 수도 있어서 문제였던 것
+            e -= 1
+        elif sub_sum <= num or s == idx: # e == idx일때도 sub_sum <= num 조건이 맞아 이 조건의 실행문이 실행될 수도 있음
             s += 1
         else: # sub_sum > num or e == idx
             e -= 1
