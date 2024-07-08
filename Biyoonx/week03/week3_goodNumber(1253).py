@@ -27,7 +27,6 @@ for idx in range(n):
     e = n - 1
     while s < e:
         sub_sum = num_list[s] + num_list[e]
-        print(f'num {num} sub_sum {sub_sum} s {s} e {e} result {result}')
         if sub_sum == num and (idx != s and idx != e):
             result += 1
             break
