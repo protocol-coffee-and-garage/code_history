@@ -11,20 +11,20 @@
 | **3주차** (6/25 ~ 7/8)     | 투 포인터, 슬라이딩 윈도우, 셋                   |
 | **4주차** (7/9 ~ 7/15)     | 스택, 큐, 데크                                   |
 | **5주차** (7/16 ~ 7/22)    | 버블정렬, 선택정렬, 삽입정렬                     |
-| **6주차** (7/23 ~ 7/29)    | 퀵정렬, 병합정렬, 기수정렬                       |
-| **7주차** (7/30 ~ 8/5)     | 깊이우선탐색, 너비우선탐색, 이진탐색             |
-| **8주차** (8/6 ~ 8/12)     | 그리디, 우선순위 큐, 힙                          |
-| **9주차** (8/13 ~ 8/19)    | 정수론(소수, 오일러피, 유클리드 호제법+확장)     |
-| **10주차** (8/20 ~ 8/26)   | 그래프(표현, 유니온 파인드)                      |
-| **11주차** (8/27 ~ 9/2)    | 그래프(위상정렬, 다익스트라)                     |
-| **12주차** (9/3 ~ 9/9)     | 그래프(벨만 포드, 플로이드 워셜, 최소 신장 트리) |
-| **13주차** (9/10 ~ 9/23)   | 트라이, 이진트리                                 |
-| **14주차** (9/24 ~ 9/30)   | 세그먼트 트리, 최소 공통 조상                    |
-| **15주차** (10/1 ~ 10/7)   | 조합                                             |
-| **16주차** (10/8 ~ 10/14)  | 동적 계획법(다이나믹 프로그래밍)                 |
-| **17주차** (10/15 ~ 10/21) | 동적 계획법(다이나믹 프로그래밍)                 |
-| **18주차** (10/22 ~ 10/28) | 기하, 구현                                       |
-| **19주차** (10/29 ~ 11/4)  | 재귀, 마무리                                     |
+| **6주차** (7/23 ~ 8/5)     | 퀵정렬, 병합정렬, 기수정렬                       |
+| **7주차** (8/6 ~ 8/12)     | 깊이우선탐색, 너비우선탐색, 이진탐색             |
+| **8주차** (8/13 ~ 8/19)    | 그리디, 우선순위 큐, 힙                          |
+| **9주차** (8/20 ~ 8/26)    | 정수론(소수, 오일러피, 유클리드 호제법+확장)     |
+| **10주차** (8/27 ~ 9/2)    | 그래프(표현, 유니온 파인드)                      |
+| **11주차** (9/3 ~ 9/9)     | 그래프(위상정렬, 다익스트라)                     |
+| **12주차** (9/10 ~ 9/23)   | 그래프(벨만 포드, 플로이드 워셜, 최소 신장 트리) |
+| **13주차** (9/24 ~ 9/30)   | 트라이, 이진트리                                 |
+| **14주차** (10/1 ~ 10/7)   | 세그먼트 트리, 최소 공통 조상                    |
+| **15주차** (10/8 ~ 10/14)  | 조합                                             |
+| **16주차** (10/15 ~ 10/21) | 동적 계획법(다이나믹 프로그래밍)                 |
+| **17주차** (10/22 ~ 10/28) | 동적 계획법(다이나믹 프로그래밍)                 |
+| **18주차** (10/29 ~ 11/4)  | 기하, 구현                                       |
+| **19주차** (11/5 ~ 11/11)  | 재귀, 마무리                                     |
 
 ## Members🙋🏻‍♀️
 
@@ -50,3 +50,8 @@
 - Assignment : 책 3일차(투 포인터, 슬라이딩 윈도우 - 백준 : [2018](https://www.acmicpc.net/problem/2018), [1940](https://www.acmicpc.net/problem/1940), [1253](https://www.acmicpc.net/problem/1253), [12891](https://www.acmicpc.net/problem/12891), [11003](https://www.acmicpc.net/problem/11003)) + Set, 백준 분류 :
   [해시를 사용한 집합과 맵](https://www.acmicpc.net/problemset?sort=ac_desc&algo=136) 3문제, [두 포인터](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80) 3문제, 2차원 배열 - [색종이](https://www.acmicpc.net/problem/2563)  
    [지수빈](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Bin/week03) | [이채연](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Chae/week03) | [이시향](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Biyoonx/week03)
+
+### week4 :스택, 큐, 데크
+
+- Date : 7월 15일
+- Assignment : 책 4일차(스택, 큐 - 백준 : [1874](https://www.acmicpc.net/problem/1874), [17298](https://www.acmicpc.net/problem/17298), [2164](https://www.acmicpc.net/problem/2164), [11286](https://www.acmicpc.net/problem/11286)) + Deque, 백준 분류 : [Stack](https://www.acmicpc.net/problemset?sort=ac_desc&algo=71) 1문제, [Queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=72) 1문제, [Deque](https://www.acmicpc.net/problemset?sort=ac_desc&algo=73) 1문제
