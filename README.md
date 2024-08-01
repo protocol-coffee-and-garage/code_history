@@ -49,9 +49,10 @@
 - Date : 7월 8일
 - Assignment : 책 3일차(투 포인터, 슬라이딩 윈도우 - 백준 : [2018](https://www.acmicpc.net/problem/2018), [1940](https://www.acmicpc.net/problem/1940), [1253](https://www.acmicpc.net/problem/1253), [12891](https://www.acmicpc.net/problem/12891), [11003](https://www.acmicpc.net/problem/11003)) + Set, 백준 분류 :
   [해시를 사용한 집합과 맵](https://www.acmicpc.net/problemset?sort=ac_desc&algo=136) 3문제, [두 포인터](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80) 3문제, 2차원 배열 - [색종이](https://www.acmicpc.net/problem/2563)  
-   [지수빈](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Bin/week03) | [이채연](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Chae/week03) | [이시향](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Biyoonx/week03)
+  [지수빈](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Bin/week03) | [이채연](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Chae/week03) | [이시향](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Biyoonx/week03)
 
 ### week4 :스택, 큐, 데크
 
 - Date : 7월 15일
-- Assignment : 책 4일차(스택, 큐 - 백준 : [1874](https://www.acmicpc.net/problem/1874), [17298](https://www.acmicpc.net/problem/17298), [2164](https://www.acmicpc.net/problem/2164), [11286](https://www.acmicpc.net/problem/11286)) + Deque, 백준 분류 : [Stack](https://www.acmicpc.net/problemset?sort=ac_desc&algo=71) 1문제, [Queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=72) 1문제, [Deque](https://www.acmicpc.net/problemset?sort=ac_desc&algo=73) 1문제
+- Assignment : 책 4일차(스택, 큐 - 백준 : [1874](https://www.acmicpc.net/problem/1874), [17298](https://www.acmicpc.net/problem/17298), [2164](https://www.acmicpc.net/problem/2164), [11286](https://www.acmicpc.net/problem/11286)) + Deque, 백준 분류 : [Stack](https://www.acmicpc.net/problemset?sort=ac_desc&algo=71) 1문제, [Queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=72) 1문제, [Deque](https://www.acmicpc.net/problemset?sort=ac_desc&algo=73) 1문제  
+  [지수빈](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Bin/week04) | [이채연](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Chae/week04) | [이시향](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Biyoonx/week04)
