@@ -33,7 +33,7 @@ for item in n_list:
 		if item > stack_list[top]:
 				target = stack_list[top:item]
 				target_stack.extend(target)
-				result.append(['+'] * (item - top))
+				result.extend(['+'] * (item - top))
 		elif item < stack_list[top]:
 				result = ['NO']
 				break
