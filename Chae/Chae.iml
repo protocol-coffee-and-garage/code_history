@@ -7,6 +7,8 @@
       <sourceFolder url="file://$MODULE_DIR$/week03/set" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/week03/slidingWindow" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/week03/twoPointer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/week04/queue" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/week04/stack" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
