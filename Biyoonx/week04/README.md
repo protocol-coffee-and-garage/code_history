@@ -7,8 +7,8 @@
 - top : 삽입과 삭제가 일어나는 위치(출입구 바로 앞에 있는 값)
 - append(push) / pop / peek
 - DFS, 백트레킹 문제와 연관 多
-- 후입선출은 재귀 함수 알고리즘 원리와 일맥상통?
-  <img src="https://inblog.ai/_next/image?url=https%3A%2F%2Fwww.notion.so%2Fimage%2Fhttps%253A%252F%252Fs3-us-west-2.amazonaws.com%252Fsecure.notion-static.com%252Fd7421e6c-f9f1-489f-82c2-5d1590daaa93%252FUntitled.png%3Ftable%3Dblock%26id%3Deba9b97b-de49-4cf6-bd1e-d13e43900fb0%26cache%3Dv2&w=2048&q=75"/>
+- 후입선출은 재귀 함수 알고리즘 원리와 일맥상통?  
+  <img width="35%" src="https://inblog.ai/_next/image?url=https%3A%2F%2Fwww.notion.so%2Fimage%2Fhttps%253A%252F%252Fs3-us-west-2.amazonaws.com%252Fsecure.notion-static.com%252Fd7421e6c-f9f1-489f-82c2-5d1590daaa93%252FUntitled.png%3Ftable%3Dblock%26id%3Deba9b97b-de49-4cf6-bd1e-d13e43900fb0%26cache%3Dv2&w=2048&q=75"/>
 - 이미지 출처 : [[자료구조] Stack & Queue - 백엔드블로그-dohyeong](https://inblog.ai/dohyeong/stack-queue-1514)
 
 ## Queue
