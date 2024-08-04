@@ -26,18 +26,24 @@ print('\n'.join(stack_sequence))
 '''
 
 top = 0
-stack_list = range(1, n + 1)
+stack_list = [*range(1, n + 1)]
 target_stack = []
 result = []
 for item in n_list:
-		if item > stack_list[top]:
-				target = stack_list[top:item]
-				target_stack.extend(target)
-				result.extend(['+'] * (item - top))
-		elif item < stack_list[top]:
-				result = ['NO']
-				break
-		result.append('-')
-		top = item - 2
+		top = top if top < n else (n - 1)
+		if item >= stack_list[top]:
+				while top < n and item >= stack_list[top]:
+						target_stack.append(stack_list[top])
+						result.append('+')
+						top += 1
+				result.append('-')
+				target_stack.pop()
+		else: # item < stack_list[top]
+				target = target_stack.pop()
+				result.append('-')
+				if target > item:
+						result.clear()
+						result.append('NO')
+						break
 
 print('\n'.join(result))

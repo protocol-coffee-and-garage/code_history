@@ -30,19 +30,19 @@
 - 저장된 값을 인덱싱으로 접근하려면 튜플/리스트로 변환 후 가능
 - 교집합, 합집합, 차집합 구할 시 유용
 	- 교집합
-	'''python
-	set1 & set2
-	set1.intersection(set2)
+	'''python  
+	set1 & set2  
+	set1.intersection(set2)  
 	'''
 	- 합집합
-	'''python
-	set1 | set2
-	set1.union(set2)
+	'''python  
+	set1 | set2  
+	set1.union(set2)  
 	'''
 	- 차집합
-	'''python
-	set1 - set2
-	set1.difference(set2)
+	'''python  
+	set1 - set2  
+	set1.difference(set2)  
 	'''
 - 관련 함수 : add / update /remove
 

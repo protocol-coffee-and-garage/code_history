@@ -4,8 +4,7 @@
 > 2차원 배열 : 색종이(2563)  
 > 투 포인터 : 수열(2559), 최솟값 찾기(11003)  
 > <br>
-> 1874, 17298, 2164, 11286  
-> 스택1, 큐1, 덱1
+> 17298, 2164, 11286
 
 ## Stack
 
@@ -27,10 +26,11 @@
 - 파이썬에서는 collections.deque를 보통 활용
 - 선형 / 원형(환형), 우선순위 큐, 데크
 - BFS 문제와 연관 多
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F5NOv1%2FbtqSTINnoq8%2F4f8bjzzf6W4POewlq8At31%2Fimg.png"/>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F5NOv1%2FbtqSTINnoq8%2F4f8bjzzf6W4POewlq8At31%2Fimg.png"/>
 - 이미지 출처 : [[자료구조] 큐 (Queue) - yoongrammer](https://yoongrammer.tistory.com/46)
 
 ## Deque
+
 - 양방향 큐
 - 이중연결 리스트로 구현
 - append(item) / appendleft(item) / pop() / popleft() / extend(array) / extendleft(array) / remove(item)(제일 처음 나온 해당 string만 제거됨) / clear() / reverse() / rotate(num)(데크를 num만큼 회전, 양수면 오른쪽, 음수면 왼쪽)
