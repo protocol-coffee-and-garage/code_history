@@ -122,8 +122,12 @@
   line_num = int(read())
   matrix = [list(map(int, read().split())) for _ in range(line_num)]
   ```
+  - sys.stdin.read : 전체 입력을 한 번에 읽음(입력 크기가 클 때 유리)
+  - sys.stdin.readline : 한 줄씩 입력을 읽음
 
 - 출력 : `print()`를 사용하되 tuple의 경우 `*`를 통한 unpacking 활용
+  - print : 출력할 데이터를 인자로 받아 출력, 끝에 개행 문자를 추가하는 것이 기본값(두번째 인자로 end의 값을 지정하면 해당 문자열을 기준으로 구분하여 출력됨), 여러 인자를 출력할 수 있으나 다량의 데이터를 출력할 때는 성능이 떨어짐
+  - sys.stdout.write : 문자열을 인자로 받아 출력, 출력 시 개행 문자를 추가하지 않아 필요시 명시해야 함
 
 <br>
 
