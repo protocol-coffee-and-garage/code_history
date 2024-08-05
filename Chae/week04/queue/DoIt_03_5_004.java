@@ -14,7 +14,8 @@ public class DoIt_03_5_004 {
             int first_abs = Math.abs(o1);  //절대값 만들기
             int second_abs = Math.abs(o2);
             if(first_abs == second_abs){ //절대값이 같을 때
-                return o1 > o2 ? 1 : -1;    //o1 > o2 = 1 =>양수 o2가 음수이기 때문에 우선
+                return o1 - o2;
+                // return o1 > o2 ? 1 : -1;    //o1 > o2 = 1 =>양수 o2가 음수이기 때문에 우선
             }else{
                 return first_abs - second_abs; // 절대값 기준 정렬 o1>o2 => 양수 -> o2 우선 / o1<o2 => 음수 -> o1 우선
             }
