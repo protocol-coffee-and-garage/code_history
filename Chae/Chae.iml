@@ -10,6 +10,8 @@
       <sourceFolder url="file://$MODULE_DIR$/week04/deque" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/week04/queue" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/week04/stack" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/week05/bubble_sort" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/week05/selection_sort" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
