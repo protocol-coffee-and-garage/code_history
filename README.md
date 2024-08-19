@@ -49,16 +49,22 @@
 - Date : 7월 8일
 - Assignment : 책 3일차(투 포인터, 슬라이딩 윈도우 - 백준 : [2018](https://www.acmicpc.net/problem/2018), [1940](https://www.acmicpc.net/problem/1940), [1253](https://www.acmicpc.net/problem/1253), [12891](https://www.acmicpc.net/problem/12891), [11003](https://www.acmicpc.net/problem/11003)) + Set, 백준 분류 :
   [해시를 사용한 집합과 맵](https://www.acmicpc.net/problemset?sort=ac_desc&algo=136) 3문제, [두 포인터](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80) 3문제, 2차원 배열 - [색종이](https://www.acmicpc.net/problem/2563)  
-  [지수빈](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Bin/week03) | [이채연](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Chae/week03) | [이시향](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Biyoonx/week03)
+  [이채연](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Chae/week03) | [이시향](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Biyoonx/week03)
 
 ### week4 : 스택, 큐, 데크
 
 - Date : 8월 5일
 - Assignment : 책 4일차(스택, 큐 - 백준 : [1874](https://www.acmicpc.net/problem/1874), [17298](https://www.acmicpc.net/problem/17298), [2164](https://www.acmicpc.net/problem/2164), [11286](https://www.acmicpc.net/problem/11286)) + Deque, 백준 분류 : [Stack](https://www.acmicpc.net/problemset?sort=ac_desc&algo=71) 1문제, [Queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=72) 1문제, [Deque](https://www.acmicpc.net/problemset?sort=ac_desc&algo=73) 1문제  
-  [지수빈](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Bin/week04) | [이채연](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Chae/week04) | [이시향](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Biyoonx/week04)
+  [이채연](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Chae/week04) | [이시향](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Biyoonx/week04)
 
 ### week5 : 버블정렬, 선택정렬, 삽입정렬
 
 - Date : 8월 12일
 - Assignment : 책 5일차(버블정렬, 선택정렬, 삽입정렬 - 백준 : [2750](https://www.acmicpc.net/problem/2750), [1377](https://www.acmicpc.net/problem/1377), [1427](https://www.acmicpc.net/problem/1427), [11399](https://www.acmicpc.net/problem/11399)), [Sort](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97) 2문제  
-  [지수빈](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Bin/week05) | [이채연](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Chae/week05) | [이시향](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Biyoonx/week05)
+  [이채연](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Chae/week05) | [이시향](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Biyoonx/week05)
+
+### week6 : 퀵정렬, 병합정렬, 기수정렬
+
+- Date : 8월 26일
+- Assignment : 책 6일차(퀵정렬, 병합정렬, 기수정렬 - 백준 : [11004](https://www.acmicpc.net/problem/11004), [2751](https://www.acmicpc.net/problem/2751), [1517](https://www.acmicpc.net/problem/1517), [10989](https://www.acmicpc.net/problem/10989)), [Sort](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97) 1문제  
+  [이채연](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Chae/week06) | [이시향](https://github.com/protocol-coffee-and-garage/code_history/tree/main/Biyoonx/week06)
