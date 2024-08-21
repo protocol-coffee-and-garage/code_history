@@ -1,7 +1,7 @@
 # week6: QuickSort, MergeSort, RadixSort
 
 ## QuickSort
-- pivot 값을 선정해 해당 값응 기준으로 정렬
+- pivot 값을 선정해 해당 값을 기준으로 정렬
 - 시간복잡도 : O(n<sup>2</sup>)
 
 
