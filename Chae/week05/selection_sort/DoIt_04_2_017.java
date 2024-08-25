@@ -41,3 +41,4 @@ public class DoIt_04_2_017 {
 
 
 //max = Integer.parseInt(String.valueOf(Arrays.stream(arr).max())); 이렇게 max값을 찾을 경우 max의 인덱스를 찾아야 되는 추가 작업 필요
+
